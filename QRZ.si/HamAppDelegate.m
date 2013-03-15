@@ -9,6 +9,7 @@
 #import "HamAppDelegate.h"
 
 @implementation HamAppDelegate
+@synthesize callSigns;
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {

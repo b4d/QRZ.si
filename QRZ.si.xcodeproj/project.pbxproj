@@ -7,6 +7,34 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B31273FD16B6A05200923D71 /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B31273FC16B6A05200923D71 /* MessageUI.framework */; };
+		B32741B116C109790011E8B7 /* MapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B33CBDD516B32D89002FC890 /* MapViewController.m */; };
+		B3281FD016AF2611007AAC59 /* CallSign.m in Sources */ = {isa = PBXBuildFile; fileRef = B3281FCF16AF2611007AAC59 /* CallSign.m */; };
+		B3281FD116AF2934007AAC59 /* XMLParser.m in Sources */ = {isa = PBXBuildFile; fileRef = B3281FCC16AF25DD007AAC59 /* XMLParser.m */; };
+		B3281FF316AF4A34007AAC59 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B3281FF216AF4A34007AAC59 /* MapKit.framework */; };
+		B328201216AF5D24007AAC59 /* Find@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B328201116AF5D24007AAC59 /* Find@2x.png */; };
+		B328201416AF5D2F007AAC59 /* Find.png in Resources */ = {isa = PBXBuildFile; fileRef = B328201316AF5D2F007AAC59 /* Find.png */; };
+		B33CBDD016B32D08002FC890 /* Maidenhead.m in Sources */ = {isa = PBXBuildFile; fileRef = B33CBDCD16B32D08002FC890 /* Maidenhead.m */; };
+		B33CBDDC16B32F48002FC890 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B33CBDDB16B32F48002FC890 /* CoreLocation.framework */; };
+		B33CBDED16B40407002FC890 /* SearchViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B33CBDEC16B40407002FC890 /* SearchViewController.m */; };
+		B33CBDF516B5940C002FC890 /* MBProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = B33CBDEF16B40B96002FC890 /* MBProgressHUD.m */; };
+		B352296716E7ECA3006DB52D /* qrz-icon-114.png in Resources */ = {isa = PBXBuildFile; fileRef = B328200D16AF5CF2007AAC59 /* qrz-icon-114.png */; };
+		B352296A16E7ECE6006DB52D /* qrz_icon_57.png in Resources */ = {isa = PBXBuildFile; fileRef = B352296916E7ECE6006DB52D /* qrz_icon_57.png */; };
+		B352297216E7EE57006DB52D /* splash4.png in Resources */ = {isa = PBXBuildFile; fileRef = B352297016E7EE57006DB52D /* splash4.png */; };
+		B352297316E7EE57006DB52D /* splash5.png in Resources */ = {isa = PBXBuildFile; fileRef = B352297116E7EE57006DB52D /* splash5.png */; };
+		B352297416E7EE5E006DB52D /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B32E2F3416BC678200D69170 /* Default@2x.png */; };
+		B352298216E7F4A0006DB52D /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B38769D516AE80F6000DD18C /* Default-568h@2x.png */; };
+		B352298B16E7FA6F006DB52D /* ZoomViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B352298A16E7FA6F006DB52D /* ZoomViewController.m */; };
+		B3535A2516B879D500F85DE9 /* web.png in Resources */ = {isa = PBXBuildFile; fileRef = B3535A2216B879D500F85DE9 /* web.png */; };
+		B3535A2616B879D500F85DE9 /* mail.png in Resources */ = {isa = PBXBuildFile; fileRef = B3535A2316B879D500F85DE9 /* mail.png */; };
+		B3535A2716B879D500F85DE9 /* maps.png in Resources */ = {isa = PBXBuildFile; fileRef = B3535A2416B879D500F85DE9 /* maps.png */; };
+		B3535A3116B881BE00F85DE9 /* maps@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B3535A2E16B881BE00F85DE9 /* maps@2x.png */; };
+		B3535A3216B881BE00F85DE9 /* web@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B3535A2F16B881BE00F85DE9 /* web@2x.png */; };
+		B3535A3316B881BE00F85DE9 /* mail@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B3535A3016B881BE00F85DE9 /* mail@2x.png */; };
+		B371578516C27AD900C24385 /* PageCurl.png in Resources */ = {isa = PBXBuildFile; fileRef = B371578416C27AD900C24385 /* PageCurl.png */; };
+		B371578816C2867100C24385 /* MapOptionsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B371578716C2867100C24385 /* MapOptionsViewController.m */; };
+		B384E45716C2C5C6009B5089 /* EN-FIST@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B384E45516C2C5C6009B5089 /* EN-FIST@2x.png */; };
+		B384E45816C2C5C6009B5089 /* EN-FIST.png in Resources */ = {isa = PBXBuildFile; fileRef = B384E45616C2C5C6009B5089 /* EN-FIST.png */; };
 		B38769C016AE80F6000DD18C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B38769BF16AE80F6000DD18C /* UIKit.framework */; };
 		B38769C216AE80F6000DD18C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B38769C116AE80F6000DD18C /* Foundation.framework */; };
 		B38769C416AE80F6000DD18C /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B38769C316AE80F6000DD18C /* CoreGraphics.framework */; };
@@ -14,13 +42,49 @@
 		B38769CC16AE80F6000DD18C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B38769CB16AE80F6000DD18C /* main.m */; };
 		B38769D016AE80F6000DD18C /* HamAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B38769CF16AE80F6000DD18C /* HamAppDelegate.m */; };
 		B38769D216AE80F6000DD18C /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = B38769D116AE80F6000DD18C /* Default.png */; };
-		B38769D416AE80F6000DD18C /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B38769D316AE80F6000DD18C /* Default@2x.png */; };
-		B38769D616AE80F6000DD18C /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B38769D516AE80F6000DD18C /* Default-568h@2x.png */; };
 		B38769D916AE80F6000DD18C /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B38769D716AE80F6000DD18C /* MainStoryboard.storyboard */; };
 		B38769DC16AE80F6000DD18C /* HamViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B38769DB16AE80F6000DD18C /* HamViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		B31273FA16B69BF400923D71 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		B31273FC16B6A05200923D71 /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
+		B3281FCB16AF25DD007AAC59 /* XMLParser.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XMLParser.h; sourceTree = "<group>"; };
+		B3281FCC16AF25DD007AAC59 /* XMLParser.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XMLParser.m; sourceTree = "<group>"; };
+		B3281FCE16AF2611007AAC59 /* CallSign.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CallSign.h; sourceTree = "<group>"; };
+		B3281FCF16AF2611007AAC59 /* CallSign.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CallSign.m; sourceTree = "<group>"; };
+		B3281FF216AF4A34007AAC59 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		B328200D16AF5CF2007AAC59 /* qrz-icon-114.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "qrz-icon-114.png"; path = "../qrz-icon-114.png"; sourceTree = "<group>"; };
+		B328201116AF5D24007AAC59 /* Find@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Find@2x.png"; sourceTree = "<group>"; };
+		B328201316AF5D2F007AAC59 /* Find.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Find.png; sourceTree = "<group>"; };
+		B32E2F3416BC678200D69170 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default@2x.png"; path = "../Default@2x.png"; sourceTree = "<group>"; };
+		B32E2F3616BC6F6600D69170 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Default.png; path = ../Default.png; sourceTree = "<group>"; };
+		B32E2F3816BC6F6D00D69170 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default-568h@2x.png"; path = "../Default-568h@2x.png"; sourceTree = "<group>"; };
+		B33CBDCC16B32D08002FC890 /* Maidenhead.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Maidenhead.h; sourceTree = "<group>"; };
+		B33CBDCD16B32D08002FC890 /* Maidenhead.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Maidenhead.m; sourceTree = "<group>"; };
+		B33CBDD416B32D89002FC890 /* MapViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MapViewController.h; sourceTree = "<group>"; };
+		B33CBDD516B32D89002FC890 /* MapViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MapViewController.m; sourceTree = "<group>"; };
+		B33CBDDB16B32F48002FC890 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		B33CBDEB16B40407002FC890 /* SearchViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SearchViewController.h; sourceTree = "<group>"; };
+		B33CBDEC16B40407002FC890 /* SearchViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SearchViewController.m; sourceTree = "<group>"; };
+		B33CBDEE16B40B96002FC890 /* MBProgressHUD.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MBProgressHUD.h; sourceTree = "<group>"; };
+		B33CBDEF16B40B96002FC890 /* MBProgressHUD.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MBProgressHUD.m; sourceTree = "<group>"; };
+		B352296916E7ECE6006DB52D /* qrz_icon_57.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = qrz_icon_57.png; sourceTree = "<group>"; };
+		B352297016E7EE57006DB52D /* splash4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = splash4.png; sourceTree = "<group>"; };
+		B352297116E7EE57006DB52D /* splash5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = splash5.png; sourceTree = "<group>"; };
+		B352298916E7FA6F006DB52D /* ZoomViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZoomViewController.h; sourceTree = "<group>"; };
+		B352298A16E7FA6F006DB52D /* ZoomViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZoomViewController.m; sourceTree = "<group>"; };
+		B3535A2216B879D500F85DE9 /* web.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = web.png; sourceTree = "<group>"; };
+		B3535A2316B879D500F85DE9 /* mail.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = mail.png; sourceTree = "<group>"; };
+		B3535A2416B879D500F85DE9 /* maps.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = maps.png; sourceTree = "<group>"; };
+		B3535A2E16B881BE00F85DE9 /* maps@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "maps@2x.png"; sourceTree = "<group>"; };
+		B3535A2F16B881BE00F85DE9 /* web@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "web@2x.png"; sourceTree = "<group>"; };
+		B3535A3016B881BE00F85DE9 /* mail@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "mail@2x.png"; sourceTree = "<group>"; };
+		B371578416C27AD900C24385 /* PageCurl.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = PageCurl.png; sourceTree = "<group>"; };
+		B371578616C2867100C24385 /* MapOptionsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MapOptionsViewController.h; sourceTree = "<group>"; };
+		B371578716C2867100C24385 /* MapOptionsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MapOptionsViewController.m; sourceTree = "<group>"; };
+		B384E45516C2C5C6009B5089 /* EN-FIST@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "EN-FIST@2x.png"; sourceTree = "<group>"; };
+		B384E45616C2C5C6009B5089 /* EN-FIST.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "EN-FIST.png"; sourceTree = "<group>"; };
 		B38769BB16AE80F6000DD18C /* QRZ.si.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = QRZ.si.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B38769BF16AE80F6000DD18C /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		B38769C116AE80F6000DD18C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -37,6 +101,7 @@
 		B38769D816AE80F6000DD18C /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
 		B38769DA16AE80F6000DD18C /* HamViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HamViewController.h; sourceTree = "<group>"; };
 		B38769DB16AE80F6000DD18C /* HamViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HamViewController.m; sourceTree = "<group>"; };
+		B38769EB16AE8211000DD18C /* libxml2.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libxml2.dylib; path = usr/lib/libxml2.dylib; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -44,6 +109,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B31273FD16B6A05200923D71 /* MessageUI.framework in Frameworks */,
+				B33CBDDC16B32F48002FC890 /* CoreLocation.framework in Frameworks */,
+				B3281FF316AF4A34007AAC59 /* MapKit.framework in Frameworks */,
 				B38769C016AE80F6000DD18C /* UIKit.framework in Frameworks */,
 				B38769C216AE80F6000DD18C /* Foundation.framework in Frameworks */,
 				B38769C416AE80F6000DD18C /* CoreGraphics.framework in Frameworks */,
@@ -53,6 +121,58 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		B328201916AFFBFE007AAC59 /* XMLParser */ = {
+			isa = PBXGroup;
+			children = (
+				B3281FCB16AF25DD007AAC59 /* XMLParser.h */,
+				B3281FCC16AF25DD007AAC59 /* XMLParser.m */,
+			);
+			name = XMLParser;
+			sourceTree = "<group>";
+		};
+		B328201A16AFFC0D007AAC59 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				B384E45516C2C5C6009B5089 /* EN-FIST@2x.png */,
+				B384E45616C2C5C6009B5089 /* EN-FIST.png */,
+				B32E2F3816BC6F6D00D69170 /* Default-568h@2x.png */,
+				B32E2F3616BC6F6600D69170 /* Default.png */,
+				B32E2F3416BC678200D69170 /* Default@2x.png */,
+				B3535A2E16B881BE00F85DE9 /* maps@2x.png */,
+				B3535A2F16B881BE00F85DE9 /* web@2x.png */,
+				B3535A3016B881BE00F85DE9 /* mail@2x.png */,
+				B3535A2216B879D500F85DE9 /* web.png */,
+				B3535A2316B879D500F85DE9 /* mail.png */,
+				B3535A2416B879D500F85DE9 /* maps.png */,
+				B328200D16AF5CF2007AAC59 /* qrz-icon-114.png */,
+				B352296916E7ECE6006DB52D /* qrz_icon_57.png */,
+				B328201116AF5D24007AAC59 /* Find@2x.png */,
+				B328201316AF5D2F007AAC59 /* Find.png */,
+				B371578416C27AD900C24385 /* PageCurl.png */,
+				B352297016E7EE57006DB52D /* splash4.png */,
+				B352297116E7EE57006DB52D /* splash5.png */,
+			);
+			name = Images;
+			sourceTree = "<group>";
+		};
+		B33CBDD316B32D0E002FC890 /* libmaidenhead */ = {
+			isa = PBXGroup;
+			children = (
+				B33CBDCC16B32D08002FC890 /* Maidenhead.h */,
+				B33CBDCD16B32D08002FC890 /* Maidenhead.m */,
+			);
+			name = libmaidenhead;
+			sourceTree = "<group>";
+		};
+		B33CBDF016B40BA2002FC890 /* MBProgressHUD */ = {
+			isa = PBXGroup;
+			children = (
+				B33CBDEE16B40B96002FC890 /* MBProgressHUD.h */,
+				B33CBDEF16B40B96002FC890 /* MBProgressHUD.m */,
+			);
+			name = MBProgressHUD;
+			sourceTree = "<group>";
+		};
 		B38769B016AE80F5000DD18C = {
 			isa = PBXGroup;
 			children = (
@@ -73,6 +193,11 @@
 		B38769BE16AE80F6000DD18C /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				B38769EB16AE8211000DD18C /* libxml2.dylib */,
+				B31273FC16B6A05200923D71 /* MessageUI.framework */,
+				B31273FA16B69BF400923D71 /* QuartzCore.framework */,
+				B33CBDDB16B32F48002FC890 /* CoreLocation.framework */,
+				B3281FF216AF4A34007AAC59 /* MapKit.framework */,
 				B38769BF16AE80F6000DD18C /* UIKit.framework */,
 				B38769C116AE80F6000DD18C /* Foundation.framework */,
 				B38769C316AE80F6000DD18C /* CoreGraphics.framework */,
@@ -86,8 +211,21 @@
 				B38769CE16AE80F6000DD18C /* HamAppDelegate.h */,
 				B38769CF16AE80F6000DD18C /* HamAppDelegate.m */,
 				B38769D716AE80F6000DD18C /* MainStoryboard.storyboard */,
+				B33CBDEB16B40407002FC890 /* SearchViewController.h */,
+				B33CBDEC16B40407002FC890 /* SearchViewController.m */,
 				B38769DA16AE80F6000DD18C /* HamViewController.h */,
 				B38769DB16AE80F6000DD18C /* HamViewController.m */,
+				B33CBDD416B32D89002FC890 /* MapViewController.h */,
+				B33CBDD516B32D89002FC890 /* MapViewController.m */,
+				B371578616C2867100C24385 /* MapOptionsViewController.h */,
+				B371578716C2867100C24385 /* MapOptionsViewController.m */,
+				B352298916E7FA6F006DB52D /* ZoomViewController.h */,
+				B352298A16E7FA6F006DB52D /* ZoomViewController.m */,
+				B3281FCE16AF2611007AAC59 /* CallSign.h */,
+				B3281FCF16AF2611007AAC59 /* CallSign.m */,
+				B33CBDF016B40BA2002FC890 /* MBProgressHUD */,
+				B33CBDD316B32D0E002FC890 /* libmaidenhead */,
+				B328201916AFFBFE007AAC59 /* XMLParser */,
 				B38769C616AE80F6000DD18C /* Supporting Files */,
 			);
 			path = QRZ.si;
@@ -96,6 +234,7 @@
 		B38769C616AE80F6000DD18C /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				B328201A16AFFC0D007AAC59 /* Images */,
 				B38769C716AE80F6000DD18C /* QRZ.si-Info.plist */,
 				B38769C816AE80F6000DD18C /* InfoPlist.strings */,
 				B38769CB16AE80F6000DD18C /* main.m */,
@@ -161,9 +300,24 @@
 			files = (
 				B38769CA16AE80F6000DD18C /* InfoPlist.strings in Resources */,
 				B38769D216AE80F6000DD18C /* Default.png in Resources */,
-				B38769D416AE80F6000DD18C /* Default@2x.png in Resources */,
-				B38769D616AE80F6000DD18C /* Default-568h@2x.png in Resources */,
 				B38769D916AE80F6000DD18C /* MainStoryboard.storyboard in Resources */,
+				B328201216AF5D24007AAC59 /* Find@2x.png in Resources */,
+				B328201416AF5D2F007AAC59 /* Find.png in Resources */,
+				B3535A2516B879D500F85DE9 /* web.png in Resources */,
+				B3535A2616B879D500F85DE9 /* mail.png in Resources */,
+				B3535A2716B879D500F85DE9 /* maps.png in Resources */,
+				B3535A3116B881BE00F85DE9 /* maps@2x.png in Resources */,
+				B3535A3216B881BE00F85DE9 /* web@2x.png in Resources */,
+				B3535A3316B881BE00F85DE9 /* mail@2x.png in Resources */,
+				B371578516C27AD900C24385 /* PageCurl.png in Resources */,
+				B384E45716C2C5C6009B5089 /* EN-FIST@2x.png in Resources */,
+				B384E45816C2C5C6009B5089 /* EN-FIST.png in Resources */,
+				B352296716E7ECA3006DB52D /* qrz-icon-114.png in Resources */,
+				B352296A16E7ECE6006DB52D /* qrz_icon_57.png in Resources */,
+				B352297216E7EE57006DB52D /* splash4.png in Resources */,
+				B352297316E7EE57006DB52D /* splash5.png in Resources */,
+				B352297416E7EE5E006DB52D /* Default@2x.png in Resources */,
+				B352298216E7F4A0006DB52D /* Default-568h@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -174,9 +328,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B32741B116C109790011E8B7 /* MapViewController.m in Sources */,
+				B33CBDF516B5940C002FC890 /* MBProgressHUD.m in Sources */,
+				B3281FD116AF2934007AAC59 /* XMLParser.m in Sources */,
 				B38769CC16AE80F6000DD18C /* main.m in Sources */,
 				B38769D016AE80F6000DD18C /* HamAppDelegate.m in Sources */,
 				B38769DC16AE80F6000DD18C /* HamViewController.m in Sources */,
+				B3281FD016AF2611007AAC59 /* CallSign.m in Sources */,
+				B33CBDD016B32D08002FC890 /* Maidenhead.m in Sources */,
+				B33CBDED16B40407002FC890 /* SearchViewController.m in Sources */,
+				B371578816C2867100C24385 /* MapOptionsViewController.m in Sources */,
+				B352298B16E7FA6F006DB52D /* ZoomViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -202,6 +364,45 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		B306285616BD247200EC2BCE /* Ad Hoc */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = "Ad Hoc";
+		};
+		B306285716BD247200EC2BCE /* Ad Hoc */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Distribution: EN-FIST Center Odlicnosti";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: EN-FIST Center Odlicnosti";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "QRZ.si/QRZ.si-Prefix.pch";
+				HEADER_SEARCH_PATHS = "\"/usr/include/libxml2\"";
+				INFOPLIST_FILE = "QRZ.si/QRZ.si-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "DFE42C94-A7A5-4E92-82B4-3D5DBD3871A5";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "DFE42C94-A7A5-4E92-82B4-3D5DBD3871A5";
+				WRAPPER_EXTENSION = app;
+			};
+			name = "Ad Hoc";
+		};
 		B38769DD16AE80F6000DD18C /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -257,7 +458,9 @@
 			buildSettings = {
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "QRZ.si/QRZ.si-Prefix.pch";
+				HEADER_SEARCH_PATHS = "\"/usr/include/libxml2\"";
 				INFOPLIST_FILE = "QRZ.si/QRZ.si-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -268,7 +471,9 @@
 			buildSettings = {
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "QRZ.si/QRZ.si-Prefix.pch";
+				HEADER_SEARCH_PATHS = "\"/usr/include/libxml2\"";
 				INFOPLIST_FILE = "QRZ.si/QRZ.si-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -282,6 +487,7 @@
 			buildConfigurations = (
 				B38769DD16AE80F6000DD18C /* Debug */,
 				B38769DE16AE80F6000DD18C /* Release */,
+				B306285616BD247200EC2BCE /* Ad Hoc */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -291,8 +497,10 @@
 			buildConfigurations = (
 				B38769E016AE80F6000DD18C /* Debug */,
 				B38769E116AE80F6000DD18C /* Release */,
+				B306285716BD247200EC2BCE /* Ad Hoc */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
