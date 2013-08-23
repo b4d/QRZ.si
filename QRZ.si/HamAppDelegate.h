@@ -7,6 +7,9 @@
 //
 
 /*  
+ Version 2.0 (X.3.2013):
+    - iOS7 looks
+ 
  Version 1.0.3 (X.3.2013):
     - MapView: golden bottom bar and locator rectangle
  
