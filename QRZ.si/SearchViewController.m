@@ -36,6 +36,10 @@
                                                                           green:179/255.0f
                                                                            blue:88/255.0f
                                                                           alpha:1.0f]];
+    [self.navigationController.navigationBar setBarTintColor:[UIColor colorWithRed:220/255.0f
+                                                                             green:220/255.0f
+                                                                              blue:220/255.0f
+                                                                             alpha:1.0f]];
     //197,179,88
 }
 

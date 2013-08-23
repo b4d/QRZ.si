@@ -15,16 +15,18 @@
     IBOutlet CLLocationManager *locationManager;
     MKMapView *myMapView;
     
-    NSString *callLocator;
-    NSString *callSign;
     
     NSInteger _currentMapType;
+    
 }
 
-@property (nonatomic, retain) IBOutlet MKMapView *myMapView;
 @property (nonatomic,strong) NSString *callLocator;
 @property (nonatomic,strong) NSString *callSign;
+
+@property (nonatomic, retain) IBOutlet MKMapView *myMapView;
+
 - (IBAction)pressCenterMap:(UIBarButtonItem *)sender;
+
 @property (weak, nonatomic) IBOutlet UILabel *labelDistance;
 
 @end

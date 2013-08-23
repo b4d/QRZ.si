@@ -16,15 +16,16 @@
     
     HamAppDelegate *appDelegate;
     
-    NSString *callSign;
-    
     MBProgressHUD *HUD;
+    
 }
+
+
 - (IBAction)showEmail:(id)sender;
 
 @property (nonatomic,strong) NSString *callSign;
-
 @property (nonatomic, strong) NSMutableArray *callSigns;
+
 @property (weak, nonatomic) IBOutlet UIImageView *imageAvatar;
 
 @property (weak, nonatomic) IBOutlet UILabel *labelName;
@@ -41,4 +42,5 @@
 @property (weak, nonatomic) IBOutlet UIBarButtonItem *buttonMail;
 
 - (IBAction)imageTap:(UITapGestureRecognizer *)sender;
+
 @end

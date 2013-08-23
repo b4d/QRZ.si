@@ -151,5 +151,34 @@
     }
 }
 
+- (void)applyMapViewMemoryHotFix{
+    
+    switch (self.myMapView.mapType) {
+        case MKMapTypeHybrid:
+        {
+            self.myMapView.mapType = MKMapTypeStandard;
+        }
+            
+            break;
+        case MKMapTypeStandard:
+        {
+            self.myMapView.mapType = MKMapTypeHybrid;
+        }
+            
+            break;
+        default:
+            break;
+    }
+    self.myMapView.showsUserLocation = NO;
+    self.myMapView.delegate = nil;
+    [self.myMapView removeFromSuperview];
+    self.myMapView = nil;
+}
+
+-(void)viewDidDisappear:(BOOL)animated
+{
+    [self applyMapViewMemoryHotFix];
+    NSLog(@"fixxxin map memory");
+}
 
 @end

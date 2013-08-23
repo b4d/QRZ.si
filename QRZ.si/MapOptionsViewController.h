@@ -15,6 +15,7 @@
 
 
 @interface MapOptionsViewController : UIViewController {
+
 @private
     __weak id <MapOptionsViewControllerDelegate> _delegate;
     __weak UISegmentedControl *_mapTypeSegmentedControl;

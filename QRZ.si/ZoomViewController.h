@@ -9,9 +9,12 @@
 #import <UIKit/UIKit.h>
 
 @interface ZoomViewController : UIViewController {
-    UIImage *avatar;
+
 }
+
 - (IBAction)returnTap:(UITapGestureRecognizer *)sender;
 @property (weak, nonatomic) IBOutlet UIImageView *imageView;
+
 @property (nonatomic, strong) UIImage *avatar;
+
 @end

@@ -10,19 +10,8 @@
 
 @interface CallSign : NSObject {
 
-    NSInteger ID;
-    NSString *Call;
-    NSString *Img;
-    NSString *Name;
-    NSString *Address;
-    NSString *Postal;
-    NSString *Email;
-    NSString *Web;
-    NSString *RadioClub;
-    NSString *Locator;
-    NSString *QSL;
-    
 }
+
 @property (nonatomic, readwrite) NSInteger ID;
 @property (nonatomic, retain) NSString *Call;
 @property (nonatomic, retain) NSString *Img;
