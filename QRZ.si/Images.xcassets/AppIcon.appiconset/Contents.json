@@ -23,13 +23,13 @@
     {
       "size" : "57x57",
       "idiom" : "iphone",
-      "filename" : "qrz-icon-114.png",
+      "filename" : "qrz-icon-57pt@2x.png",
       "scale" : "2x"
     },
     {
       "size" : "60x60",
       "idiom" : "iphone",
-      "filename" : "qrz-icon-114-1.png",
+      "filename" : "qrz-icon-60pt@2x.png",
       "scale" : "2x"
     },
     {
